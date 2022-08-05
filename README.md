@@ -32,7 +32,7 @@ unfinished
 
 ​     wiki is under construction, welcome to contribute or star! !
 
-  [WIKI地址](https://www.kancloud.cn/handsomehacker/openstick/content)
+  [WIKI](https://www.kancloud.cn/handsomehacker/openstick/content)
 
 ## 相关链接
 
