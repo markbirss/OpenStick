@@ -4,9 +4,9 @@ Reverse engineering and mainline porting of msm8916 4g network card
 ### Completely open source, but commercial use is prohibited!
 
 * Commercial activities include:
- * Sell ​​all system images and their derivatives that were originally free and open for download.
- * Publish products built with the HandsomeMod build system for a fee.
- * Mass sale of devices powered by OpenStick Linux.
+  * Sell ​​all system images and their derivatives that were originally free and open for download.
+  * Publish products built with the HandsomeMod build system for a fee.
+  * Mass sale of devices powered by OpenStick Linux.
 * All binary files involving Qualcomm firmware in this project are for learning purposes only, and are subject to the original license of Qualcomm firmware. Any legal problems caused by improper use are at your own risk.
 
 current progress
