@@ -34,6 +34,6 @@ unfinished
 
   [WIKI](https://www.kancloud.cn/handsomehacker/openstick/content)
 
-## 相关链接
+## Related Links
 
   [HandsomeMod build system](https://github.com/HandsomeMod/HandsomeMod)
