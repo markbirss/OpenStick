@@ -1,39 +1,39 @@
 # OpenStick
-msm8916 4g网卡的逆向工程和主线移植
+Reverse engineering and mainline porting of msm8916 4g network card
 
-### 完全开源，但是禁止商用！
+### Completely open source, but commercial use is prohibited!
 
-* 商用行为包括： 
-  * 售卖原本免费开放下载的所有系统镜像及其衍生品。
-  * 将通过HandsomeMod构建系统构建的产物通过收费进行发布。
-  * 大规模批量售卖搭载OpenStick Linux的设备。
-* 本项目的所有涉及高通firmware的二进制文件仅供学习用途，并服从高通firmware原本的[License](https://github.com/HandsomeMod/qcom-firmware/blob/main/LICENSE)，若不当使用造成任何法律问题后果自负。
+* Commercial activities include:
+ ** Sell ​​all system images and their derivatives that were originally free and open for download.
+ ** Publish products built with the HandsomeMod build system for a fee.
+  ** Mass sale of devices powered by OpenStick Linux.
+* All binary files involving Qualcomm firmware in this project are for learning purposes only, and are subject to the original license of Qualcomm firmware. Any legal problems caused by improper use are at your own risk.
 
-目前的进度
+current progress
 
-* 完成了msm8916-mainline部分特性向5.10稳定内核的移植，初步完成了HandsomeMod（openwrt）的移植，能够通在对设置调整最小的情况下完成基本功能。
-* 完成了绝大多数功能在主线中的驱动，并运行postmarketOS。
-* 在Debian中驱动了msm8916网卡所有的外设。
-* 完成了Modem在HandsomeMod中的驱动。
-* 支持在windows平台下的烧写。
+* Completed the transplantation of some features of msm8916-mainline to the 5.10 stable kernel, and preliminarily completed the transplantation of  HandsomeMod (openwrt), which can complete basic functions with minimal adjustment of settings.
+* Completed the driving of most of the functions in the main line and run postmarketOS.
+* All peripherals of the msm8916 network card are driven in Debian.
+* Finished driving Modem in HandsomeMod.
+* Supports programming under the Windows platform.
 
-尚未完善的
+unfinished
 
-* 视频编码器由于某些原因无法正常工作。
-* 部分wifi型号由于原厂切卡逻辑不清晰暂不支持Modem。
-* 详见wiki。
+* The video encoder is not working properly for some reason.
+* Some wifi models do not support Modem due to the unclear logic of the original factory card switching.
+* See the wiki for details.
 
-## 刷机包
+## Brush package
 
-* 这个刷机包会覆盖原机的分区表（删除了没用的分区，大概会给rootfs腾出3G多的空间）和引导程序，不再兼容安卓系统，请使用时做好备份。我也不会提供回去的办法。
-* 包在release里面。
+* This flashing package will overwrite the partition table of the original machine (deleting useless partitions will probably free up more than 3G of space for rootfs) and the bootloader, which is no longer compatible with the Android system. Please make a backup when using it. I also don't offer a way to go back.
+* Packaged in release.。
 
 ## WIKI 
 
-​     wiki正在建设之中，欢迎各位大佬投稿或者star！！
+​     wiki is under construction, welcome to contribute or star! !
 
   [WIKI地址](https://www.kancloud.cn/handsomehacker/openstick/content)
 
 ## 相关链接
 
-  [HandsomeMod构建系统](https://github.com/HandsomeMod/HandsomeMod)
+  [HandsomeMod build system](https://github.com/HandsomeMod/HandsomeMod)
